@@ -3,6 +3,7 @@ A simple API for managing uniquely identifiable objects moving to/from different
 
 ##Use case example##
 Imagine you have a bike factory and a couple of distributors. Each distributor has a wholesaler network who in turn have retailers that sell bikes to consumers. You want to know what went on with one bike from assembly at the factory all the way to the consumer.
+
 1. Setup
   1. Organizations are created for the factory, wholesalers, and retailers.
   2. States for each org are created, for example the factory org will may have an ASSEMBLY state and a retailer org may have an INVENTORY state.
